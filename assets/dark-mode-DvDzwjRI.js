@@ -1,0 +1,1 @@
+import{j as o}from"./index-DUboM-Ei.js";import{M as r}from"./Markdown-DfkDZ8L-.js";import"./prism-tsx-BjGe-lSY.js";import"./index-Dw4fpHSx.js";function i(){return o.jsx(r,{file:"/dark-mode.md",fullWidth:!1})}export{i as default};
