@@ -1,0 +1,1 @@
+import{j as r}from"./index-BxNjqtL4.js";import{M as o}from"./Markdown-DS1O0TZp.js";import"./prism-tsx-1T5e5G53.js";import"./index-g8xl49SH.js";function s(){return r.jsx(o,{file:"/router.md"})}export{s as default};

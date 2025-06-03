@@ -1,0 +1,9 @@
+import{r as v,j as t,c as y,R as N}from"./index-BxNjqtL4.js";import{C as R}from"./Component-hE3veHPf.js";import{u as b,d as E,I as c}from"./index-g8xl49SH.js";import{B as F}from"./index-DLm9UXe5.js";import"./prism-tsx-1T5e5G53.js";function U({style:p,className:d,value:m,onChangeValue:f,multiple:i,max:x,trigger:h,fileRender:s,...l}){const[o,j]=b(l.ref),[n,r]=E(m,f,[]);v.useEffect(()=>{if(o.current){const e=new DataTransfer;for(let a=0;a<n.length;a++)e.items.add(n[a]);o.current.files=e.files}},[n]);const g=e=>{e!=null&&e.length&&r(i?[...n,...e].slice(0,x):[e[0]])};return t.jsxs("label",{className:y("ui-input ui-upload",d),style:p,onClick:e=>{e.target!==o.current&&e.preventDefault()},children:[t.jsx("input",{...l,type:"file",multiple:i,onChange:e=>{var a;(a=l.onChange)==null||a.call(l,e),g(e.target.files)},ref:j}),t.jsx("div",{className:"ui-upload-trigger",onClick:e=>e.stopPropagation(),children:h||t.jsxs(F,{className:"ui-upload-button",disabled:l.disabled,children:[t.jsx(c,{children:"upload"}),t.jsx("span",{children:"Upload"})]})}),!!n.length&&t.jsx("div",{className:"ui-upload-list",onClick:e=>e.preventDefault(),children:n.map((e,a)=>t.jsx(N.Fragment,{children:s?s(e):t.jsxs("div",{className:"ui-upload-item",children:[t.jsx("span",{children:e.name}),t.jsx(c,{className:"ui-input-icon",size:16,onClick:()=>r(n.filter(C=>C!==e)),children:"close"})]})},a))})]})}const u="Upload",k=[{name:u,wraps:"input/file",props:[{prop:"value",type:"File[]"},{prop:"onChangeValue",type:"(value: File[]) => any"},{prop:"multiple",type:"boolean",defaultValue:!1},{prop:"max",type:"number"},{prop:"trigger",type:"React.ReactNode"},{prop:"fileRender",type:"(file: File) => React.ReactNode"}]}],D=`
+import { Upload } from '@zenmi/ui'
+
+export function Example() {
+  return (
+    <Upload />
+  )
+}
+`;function I(){return t.jsx(U,{})}function A(){return t.jsx(R,{title:u,examples:[{code:D,element:t.jsx(I,{}),center:!0}],apiItems:k})}export{A as default};

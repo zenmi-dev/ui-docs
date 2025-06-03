@@ -1,1 +1,0 @@
-import{j as t}from"./index-BUy3NnNI.js";import{M as o}from"./Markdown-D6EIAA5m.js";import"./prism-tsx-Bwik9m1f.js";import"./index-optHOose.js";function l(){return t.jsx(o,{file:"/installation.md",fullWidth:!1})}export{l as default};
