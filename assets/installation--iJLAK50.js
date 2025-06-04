@@ -1,0 +1,1 @@
+import{j as t}from"./index-BqCEHgmv.js";import{M as o}from"./Markdown-CqSe2TBl.js";import"./prism-tsx-9MmIxAsL.js";import"./index-D54HTD0_.js";function l(){return t.jsx(o,{file:"/installation.md",fullWidth:!1})}export{l as default};

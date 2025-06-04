@@ -1,1 +1,0 @@
-import{j as o}from"./index-BxNjqtL4.js";import{M as r}from"./Markdown-DS1O0TZp.js";import"./prism-tsx-1T5e5G53.js";import"./index-g8xl49SH.js";function p(){return o.jsx(r,{file:"/hooks.md"})}export{p as default};
